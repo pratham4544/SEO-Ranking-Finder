@@ -95,3 +95,5 @@ if uploaded_file is not None:
     st.download_button("Download CSV", data=result_csv.encode('utf-8'), file_name="serpapi_results.csv", key='download_csv')
 
 # To run the app, use the 'streamlit run' command in your terminal.
+if __name__ == '__main__':
+    st.run()
