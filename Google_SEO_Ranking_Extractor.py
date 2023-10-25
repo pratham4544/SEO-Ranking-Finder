@@ -16,7 +16,7 @@ def search_link(api_key, keyword, user_input_link):
         "hl": "en",
         "device": "mobile",
         "filter": "0",
-        "num": "20",
+        "num": "100",
         "api_key": api_key  # Use the provided API key
     }
 
