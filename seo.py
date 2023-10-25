@@ -13,7 +13,7 @@ def search_link(keyword, user_input_link):
         "hl": "en",
         "device": "mobile",
         "filter": "0",
-        "num": "20",
+        "num": "100",
         "api_key": "8ce6524803c4ec5cee0c46014a6c57d1e875e468b05f96052133ea46ce4e0033"
     }
 
